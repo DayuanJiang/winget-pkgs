@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
 PackageIdentifier: DayuanJiang.PecoFence
-PackageVersion: 0.0.5
+PackageVersion: 0.1.0
 PackageLocale: en-US
 Publisher: Dayuan Jiang
 PublisherUrl: https://github.com/DayuanJiang
@@ -17,16 +17,19 @@ Description: |-
   into fences, keep real folders on the desktop as live portals, combine related fences
   into tabs, and bring everything above the current application with one shortcut.
   Rules file new items automatically, layouts can be snapshotted and restored, and the
-  interface is available in ten languages. Native Rust application; the Settings window
-  uses the Microsoft Edge WebView2 Runtime that ships with Windows 11.
+  interface is available in ten languages. The bundled pecofence-cli command lets scripts
+  and AI coding agents read and change fences, rules and settings. Native Rust
+  application; the Settings window uses the Microsoft Edge WebView2 Runtime that ships
+  with Windows 11.
 Moniker: pecofence
 Tags:
+- cli
 - desktop
 - desktop-organizer
 - fences
 - productivity
 - windows-11
-ReleaseNotesUrl: https://github.com/DayuanJiang/PecoFence/releases/tag/v0.0.5
+ReleaseNotesUrl: https://github.com/DayuanJiang/PecoFence/releases/tag/v0.1.0
 Documentations:
 - DocumentLabel: Documentation
   DocumentUrl: https://github.com/DayuanJiang/PecoFence/blob/main/docs/README.md
